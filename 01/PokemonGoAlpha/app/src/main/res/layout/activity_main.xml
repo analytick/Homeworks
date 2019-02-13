@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_gravity="fill"
+        android:layout_columnSpan="3"
+        android:layout_height="fill_parent"
+        android:text="@string/replay"
+        />
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg" />
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg" />
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img4"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img5"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img6"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img7"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img8"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img9"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img10"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img11"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+    <com.example.art.pokemon_go_alpha.SquareImageView
+        android:id="@+id/img12"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/egg"/>
+
+</GridLayout>
