@@ -78,13 +78,17 @@ public class MainActivity extends AppCompatActivity {
             i++;
         }
 
-        setFrontSide();
-
         for (ImageView img : imgList) {
             img.setOnClickListener(v -> {
                 performAction(img);
             });
         }
+
+        btnReplay.setOnClickListener(v -> {
+            setFrontSide();
+        });
+
+        setFrontSide();
     }
 
     private void toggleAllImagesEnabled(Boolean enabled) {
@@ -98,7 +102,12 @@ public class MainActivity extends AppCompatActivity {
             if (currentImg.getVisibility() == View.VISIBLE) {
                 currentImg.setImageResource(backSide);
             }
-            ;
+        }
+    }
+
+    private void resetAllImages() {
+        for (ImageView currentImg : imgList) {
+            currentImg.setImageResource(backSide);
         }
     }
 
@@ -205,5 +214,11 @@ public class MainActivity extends AppCompatActivity {
         for (ImageView img : imgList) {
             img.setVisibility(View.VISIBLE);
         }
+
+        resetAllImages();
+
+        clearClickedCards();
+
+        toggleAllImagesEnabled(true);
     }
 }
