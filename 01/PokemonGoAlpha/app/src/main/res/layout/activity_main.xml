@@ -8,93 +8,93 @@
     android:orientation="horizontal">
 
     <Button
+        android:id="@+id/btnReplay"
         android:layout_gravity="fill"
         android:layout_columnSpan="3"
         android:layout_height="fill_parent"
-        android:text="@string/replay"
-        />
+        android:text="@string/replay"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img1"
+        android:id="@+id/img01"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg" />
+        android:src="@drawable/ic_egg" />
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img2"
+        android:id="@+id/img02"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img3"
+        android:id="@+id/img03"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg" />
+        android:src="@drawable/ic_egg" />
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img4"
+        android:id="@+id/img04"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img5"
+        android:id="@+id/img05"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img6"
+        android:id="@+id/img06"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img7"
+        android:id="@+id/img07"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img8"
+        android:id="@+id/img08"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
-        android:id="@+id/img9"
+        android:id="@+id/img09"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
         android:id="@+id/img10"
@@ -103,7 +103,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
         android:id="@+id/img11"
@@ -112,7 +112,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
     <com.example.art.pokemon_go_alpha.SquareImageView
         android:id="@+id/img12"
@@ -121,6 +121,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
-        android:src="@drawable/egg"/>
+        android:src="@drawable/ic_egg"/>
 
 </GridLayout>
